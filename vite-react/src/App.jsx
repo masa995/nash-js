@@ -13,7 +13,11 @@ function App() {
 
   function onDeleteTask(id) {
     if(confirm('Вы действительно хотите удалить задачу?')){
-      const newList = list.filter((obj) => {obj.id !== id});
+      const newList = list.filter((obj) => {
+        if(obj.id !== id){
+          return true;
+        }
+      });
       setList(newList);
     }
   }
