@@ -1,0 +1,13 @@
+.todo__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo__list {
+    list-style-type: none;
+    width: 650px;
+    padding-left: 0;
+}
+
