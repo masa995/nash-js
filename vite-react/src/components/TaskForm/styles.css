@@ -1,0 +1,15 @@
+.todo__form {
+    width: 650px;
+}
+.todo__input {
+    border-radius: 8px;
+    border: 1px solid #1a1a1a;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-family: inherit;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.todo__button-add {
+    background-color: rgb(174, 231, 174);
+}

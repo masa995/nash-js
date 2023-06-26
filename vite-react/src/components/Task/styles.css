@@ -1,0 +1,45 @@
+.todo__item {
+    padding: 0.6em 1.2em;
+    margin: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #1a1a1a;
+}
+.todo__item-title-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo__item-title {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.todo__item-checkbox {
+    visibility: hidden;
+}
+.todo__item-title-box {
+    display: flex;
+    align-items: center;
+}
+.todo__item-label {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border-radius: 8px;
+    border: 1px solid #1a1a1a;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.todo__item-label img {
+    opacity: 0;
+    width: 45%;
+}
+.todo__item-delete {
+    background-color: rgb(225, 130, 114);
+}
+.todo__item-checkbox:checked + .todo__item-label img,
+.todo__item-checkbox:hover input:checked + .todo__item-label img {
+    opacity: 1;
+}
